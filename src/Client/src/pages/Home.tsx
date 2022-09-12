@@ -2,7 +2,7 @@ import React from 'react';
 
 function ReactComponent() {
   return (
-    <p>Hello world!</p>
+    <p>Hello world !</p>
   );
 }
 
