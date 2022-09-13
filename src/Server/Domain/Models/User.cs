@@ -18,9 +18,9 @@ namespace Domain.Models
 
         protected User()
         {
-            
+           
         }
-
+        
 
         public static User GetRelational(Guid id) => new(id);
     }
