@@ -2,7 +2,7 @@
 
 namespace Domain.Models.ValueObjects
 {
-    internal record Coordinates : ValueObject<Coordinates, string>
+    internal record Coordinates
     {
         public double Latitude { get; init; }
         public double Longitude { get; init; }
