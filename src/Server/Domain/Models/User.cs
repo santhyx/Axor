@@ -2,7 +2,7 @@
 
 namespace Domain.Models
 {
-    public class User : Entity
+    public sealed class User : Entity
     {
         public string? NickName { get; private set; }
         public string Login { get; private set; }
