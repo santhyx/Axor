@@ -20,8 +20,6 @@ namespace Domain.Models
         {
            
         }
-        
-
 
 
         public static User GetRelational(Guid id) => new(id);

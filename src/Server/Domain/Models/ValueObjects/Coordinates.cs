@@ -7,6 +7,7 @@ namespace Domain.Models.ValueObjects
         public double Latitude { get; init; }
         public double Longitude { get; init; }
 
+
         public Coordinates(double latitude, double longitude)
         {
             Latitude = latitude;
@@ -16,6 +17,7 @@ namespace Domain.Models.ValueObjects
         protected Coordinates()
         {
         }
+
 
         protected override string ToValueConverter()
         {
